@@ -1,0 +1,62 @@
+.yiho-header{
+    height: 48px;
+    background: #333;
+    color: #e7e7e7;
+    display: flex;
+    justify-content: center;
+}
+.header-content{
+    display: flex;
+    line-height: 48px;
+    justify-content: flex-end;
+}
+.header-border{
+    border-color: #666;
+    margin: 17px 3px 0 6px;
+    display: inline-block;
+    height: 16px;
+    border-right: 1px solid #e7e7e7;
+    vertical-align: middle;
+}
+.phone-icon{
+    background-image: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/yp-icons.20abdb4e.png);
+    width: 30px;
+    height: 30px;
+    background-position: 0 -964px;
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    left:0
+}
+.header-select{
+    display: block;
+    overflow: hidden;
+    transition: all .3s cubic-bezier(0,1,.5,1);
+    background: #fff;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+    width:160px;
+}
+.header-temp{
+    position: relative;
+    // width: 100%;
+}
+.header-temp:hover .header-select-con{
+    height:70px;
+    display: block;
+}
+
+.header-select-con{
+    position: absolute;
+    width: 100%;
+    height: 0;
+    display: none;
+    background-color: #fff;
+    color: #333;
+    z-index: 9999;
+}
+.header-select-item:hover{
+    background: #845f3f;
+    color: #e7e7e7
+}

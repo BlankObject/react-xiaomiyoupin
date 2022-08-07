@@ -1,0 +1,47 @@
+.yiho-suck-top{
+    // height: 51px;
+    // padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+    background-color: #FFFFFF;
+    transition: all 1s ease;
+}
+.yiho-suck-top-container{
+    width: 1080px;
+    display: flex;
+    align-items: center;
+}
+.yiho-suck-top-logo{
+    width: 123px;
+    height: 51px;
+    background: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/logo@2x.30cd8c00.png) 50% no-repeat;
+    background-size: 100%;
+    margin-right: 60px;
+}
+.yiho-suck-top-tabs{
+    display: flex;
+    font-size: 18px;
+    color: #666;
+    height: 51px;
+    margin-left: 70px;
+    width: 420px;
+}
+.yiho-suck-top-tabs-item{
+    height: 100%;
+    margin-right: 32px;
+    line-height: 51px;
+}
+.yiho-suck-top-tabs-item:hover{
+    color: #845f3f;
+    cursor: pointer;
+}
+.yiho-search{
+    border-bottom: 1px solid #e7e7e7;
+    margin-right: 7px;
+}
+.yiho-search-active{
+    border-bottom-color: #845f3f;
+}

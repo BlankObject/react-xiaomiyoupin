@@ -1,0 +1,180 @@
+.yiho-raise-goods{
+    margin-top: 35px;
+    .yiho-raise-goods-container{
+        width: 1080px;
+        margin: 0 auto;
+        .raise-goods-title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            .raise-goods-title-left{
+                .title-left-1{
+                    color: #333;
+                    font-size: 28px;
+                    font-weight: 400;
+                }
+                .title-left-2{
+                    margin-left: 12px;
+                    font-size: 14px;
+                    color: #999;
+                }
+            }
+            .raise-goods-title-right{
+                display: flex;
+                align-items: center;
+                font-size: 14px;
+                color: #999;
+                .raise-goods-title-right-icon{
+                    height: 30px;
+                    width: 30px;
+                    background-position: 0 -1134px;
+                    background-image: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/yp-icons.20abdb4e.png);
+                }
+            }
+        }
+        .raise-goods{
+            display: flex;
+
+            .raise-goods-item{
+                width: 537px;
+                cursor: pointer;
+                .raise-goods-item-info{
+                    width: 537px;
+                    height: 210px;
+                    padding-left: 23px;
+                    padding-top: 25px;
+                    background-color: rgb(249, 243, 233);
+                    position: relative;
+                    .goods-item-name{
+                        color: #333;
+                        font-size: 20px;
+                        line-height: 24px;
+                        height: 24px;
+                    }
+                    .goods-item-des{
+                        color: #999;
+                        font-size: 16px;
+                        line-height: 20px;
+                        height: 20px;
+                        margin-top: 8px;
+                    }
+                    .goods-item-price{
+                        font-size: 24px;
+                        line-height: 28px;
+                        height: 28px;
+                        overflow: hidden;
+                        color: #a92112;
+                        margin-top: 16px;
+                    }
+                    .goods-item-img{
+                        position: absolute;
+                        right: 15px;
+                        bottom: 10px;
+                        width: 215px;
+                        height: 215px;
+                        z-index: 4;
+                    }
+                }
+                .raise-goods-item-progress{
+                    width: 537px;
+                    background: #e3e1e2;
+                    height: 3px;
+                    position: relative;
+                    .raise-goods-item-progress1{
+                        width: 60%;
+                        height: 100%;
+                        background: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/bar.d948f88f.jpg) 0 0 no-repeat;
+                    }
+                }
+                .item-progress-num{
+                    margin-top: 10px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    color: #999;
+                    font-size: 15px;
+                    .progress-num1{
+                        margin-right: 6px;
+                        color: #a92112;
+                        font-size: 18px;
+                    }
+                    .progress-num2{
+                        // margin-right: 15px;
+                        color: #a92112;
+                        font-size: 18px;
+                    }
+                }
+            }
+            .raise-goods-item1{
+                margin-left: 5px;
+                .raise-goods-item-info1{
+                    background-color: rgb(249, 243, 233);
+                    width: 266px;
+                    height: 210px;
+                    padding-left: 23px;
+                    padding-top: 25px;
+                    cursor: pointer;
+                    .goods-item-name1{
+                        color: #333;
+                        font-size: 20px;
+                        line-height: 24px;
+                        height: 24px;
+                    }
+                    .goods-item-price1{
+                        font-size: 20px;
+                        
+                        overflow: hidden;
+                        color: #a92112;
+                        margin-top: 11px;
+                    }
+                }
+                .raise-goods-item-progress{
+                    width: 266px;
+                    background: #e3e1e2;
+                    height: 3px;
+                    position: relative;
+                    .raise-goods-item-progress1{
+                        width: 60%;
+                        height: 100%;
+                        background: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/bar.d948f88f.jpg) 0 0 no-repeat;
+                    }
+                }
+                .item-progress-num{
+                    margin-top: 10px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    color: #999;
+                    font-size: 15px;
+                    .progress-num1{
+                        margin-right: 6px;
+                        color: #a92112;
+                        font-size: 18px;
+                    }
+                    .progress-num2{
+                        // margin-right: 15px;
+                        color: #a92112;
+                        font-size: 18px;
+                    }
+                }
+            }
+            .progress-hot-icon{
+                background-color: rgb(254, 207, 0);
+                display: inline-block;
+                height: 18px;
+                border-radius: 2px;
+                vertical-align: bottom;
+                color: #fff;
+                font-size: 13px;
+                line-height: 18px;
+                padding-left: 4px;
+                padding-right: 4px;
+                margin-left: 6px;
+            }
+        }
+    }
+}

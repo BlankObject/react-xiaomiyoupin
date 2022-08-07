@@ -1,0 +1,136 @@
+.yiho-seckill{
+    .yiho-seckill-container{
+        width: 1080px;
+        margin: 0 auto;
+        margin-top: 40px;
+        .seckill-title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            .seckill-title-left{
+                display: flex;
+                align-items: flex-end;
+                // align-items: center;
+                
+                .title-left-1{
+                    color: #333;
+                    font-size: 28px;
+                    font-weight: 400;
+                }
+                .title-left-2{
+                    display: flex;
+                    align-items: center;
+                    color: #a92112;
+                    font-size: 18px;
+                    padding-bottom: 5px;
+                    margin-left: 12px;
+                    .seckill-time{
+                        display: flex;
+                        align-items: center;
+                        margin-left: 6px;
+                        .time-item{
+                            margin-left: 3px;
+                            margin-right: 3px;
+                            background-color: #b04337;
+                            display: inline-block;
+                            color: #fff;
+                            width: 23px;
+                            height: 23px;
+                            line-height: 23px;
+                            padding-top: 1px;
+                            font-size: 15px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+            .seckill-title-right{
+                display: flex;
+                align-items: center;
+                font-size: 14px;
+                color: #999;
+                .seckill-title-right-icon{
+                    height: 30px;
+                    width: 30px;
+                    background-position: 0 -1134px;
+                    background-image: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/yp-icons.20abdb4e.png);
+                }
+            }
+        }
+        .yiho-seckill-goods-container{
+            position: relative;
+            height: 354px;
+            overflow: hidden;
+            .seckill-goods-list{
+                width: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                transition-duration: 0ms;
+                transition: left .4s ease;
+                display: flex;
+                
+                .seckill-goods-item{
+                    width: 266px;
+                    margin-right: 5px;
+                    transition: all .4s;
+                    cursor: pointer;
+                    .goods-item-img{
+                        width: 266px;
+                        height: 266px;
+                    }
+                    .goods-item-des{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        background: #faf6ef;
+                        padding-top: 13px;
+                        padding-bottom: 15px;
+                        color: #333;
+                        height: 88px;
+                        font-size: 19px;
+                        .goods-item-price{
+                            display: flex;
+                            align-items: center;
+                            .item-price-left{
+                                color: #a92112;
+                                
+                            }
+                        }
+                    }
+                }
+                .seckill-goods-item:hover{
+                    box-shadow: 0 2px 20px rgba(0,0,0,.1);
+                    transform: translate3d(0,-2px,0);
+                }
+            }
+            .yiho-banner-btn{
+                width: 38px;
+                height: 38px;
+                position: absolute;
+                z-index: 10;
+                cursor: pointer;
+                top: 50%;
+                margin-top: -22px;
+                // transition: all 1s;
+            }
+            .yiho-banner-left{
+                left: 10px;
+                background-position: 0 -1940px;
+                background-image: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/yp-icons.20abdb4e.png);
+            }
+            .yiho-banner-left:hover{
+                background-position: 0 -1814px;
+            }
+            .yiho-banner-right{
+                right: 10px;
+                background-position: 0 -1856px;
+                background-image: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/yp-icons.20abdb4e.png);
+            }
+            .yiho-banner-right:hover{
+                background-position: 0 -1898px;
+            }
+        }
+    }
+}

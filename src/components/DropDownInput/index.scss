@@ -1,0 +1,84 @@
+.yiho-down-input{
+    width: 356px;
+    margin-top: 7px;
+}
+.yiho-down-input-box{
+    display: flex;
+    justify-content: stretch;
+    width: 356px;
+    height: 60px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    border-radius:4px;
+    border:1px solid rgba(0,0,0,0);
+    transition:all .3s;
+
+    .yiho-input-adornment{
+        width: 40%;
+        // height: 60px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        .yiho-input-info{
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            padding-left: 15px;
+            .yiho-region{
+                font-size: 6px;
+                color: #aaa;
+            }
+            .yiho-region-number{
+                font-size: 17px;
+                color: #333;
+                font-size: 400;
+            }
+        }
+        .yiho-bottom-icon{
+            padding-right: 15px;
+            color: rgba(0,0,0,.25);
+        }
+    }
+    .yiho-phone-input-box{
+        cursor: text;
+        box-sizing: border-box;
+        flex: auto;
+        width: 60%;
+        height: 60px;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        position: relative;
+        .yiho-phone{
+            position: absolute;
+            top: 16px;
+            height: 20px;
+            font-weight: 400;
+            font-size: 17px;
+            color: rgba(0,0,0,.4);
+            padding-left: 20px;
+            transition: top .15s cubic-bezier(.4,0,.2,1),font-size .15s cubic-bezier(.4,0,.2,1),color .15s cubic-bezier(.4,0,.2,1);
+        }
+        // .yiho-phone{
+
+        // }
+        .yiho-ant-input{
+            box-sizing: border-box;
+            padding-left:9px;
+            padding: 30px 20px 10px;
+        }
+    }
+    
+}
+.yiho-remind{
+    color: #f04645;
+    margin-top:10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.yiho-down-input-box-active{
+    background-color: #fcf2f3;
+    // border-color: #ff5c00;
+}

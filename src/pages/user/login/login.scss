@@ -1,0 +1,59 @@
+.login-title{
+    margin-top: 8px;
+    font-size: 12px;
+    color: #999;
+}
+.radio{
+    width: 20px;
+    height: 20px;
+    background-color: #f9f9f9;
+    border-radius:4px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+.radio:hover{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ff5c00;
+}
+.radio-active{
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none !important;
+    background-size: 100% 100%;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAATlBMVEUAAAD/aQD/bAD/awD/agD/aQD/aQD/bAD/aQD/////28L/dBP/+fb/zav/9Oz/5NL/omL/mFD/vI3/jT3/hjD/7OD/xJv/s3//rHP/fSP7xfatAAAACHRSTlMA8xts2babTk78UQYAAAENSURBVEjH7dfNDoIwEATgtvy4balQUYH3f1FtxSw3y2yMHpj7l411QnbVGlM1taaC6LqpjNrGtLQr7YafNO2MPr1tRUCqdS5BybONxrBOv7slMK1ShuAYfi3kzRocN6rGca00jrUiQQ78JexD5zyKnbX2DuJgn3EYvtuUAcJTthdC8JBtIATHbB0heOyS7T2Cr+dkbx4pib8le16Qhvk+2e5aXs85DFyslFje7Yn/08Dl+Ix52szFmmkHvmQSuVilmEd3IxerGPMTc7H2YFpyMbhYpZhrxcUqx1zoXCwEU3wVC8MUezf+xaf3wL/HkoVGtEqJljjR+ihaXCUrs3BZx88E6YGCn0byoww/Bx8vXG8Zm5KImgAAAABJRU5ErkJggg==);
+}
+.login-btn{
+    background-color: #ff5c00;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #f9f9f9;
+    opacity: 0.4;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 4px;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+}
+.login-btn:hover{
+    background-color: #ff7e29;
+    cursor: default;
+}
+
+.tt{
+    font-size: 17px;
+    transition: color .3s;
+    cursor: pointer;
+    color:#ff5c00;
+}
+.tt:hover{
+    color: #ff7e29;
+}
+.login-icon{
+    margin: 0 12px;
+}

@@ -1,0 +1,32 @@
+.yiho-footer{
+    margin-top: 60px;
+    border-top: 1px solid #e7e7e7;
+    background-color: #fff;
+    color: #666;
+    .yiho-footer-container{
+        width: 1080px;
+        margin: 0 auto;
+        padding: 45px 0;
+        padding-bottom: 0;
+        display: flex;
+        .yiho-footer-right{
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+            color: #666;
+            font-size: 12px;
+            .footer-info-item{
+                display: flex;
+                align-items: center;
+                height: 23px;
+            }
+            .info-item-text{
+                cursor: pointer;
+                margin-right: 6px;
+            }
+            .item-item-text:hover{
+                color: #845f3f;
+            }
+        }
+    }
+}

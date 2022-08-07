@@ -1,0 +1,376 @@
+.yiho-goods-sku{
+    .goods-sku-container{
+        width: 561px;
+        .sku-name{
+            line-height: 26px;
+            font-size: 20px;
+            color: #333;
+        }
+        .sku-name-tab{
+            margin-top: 4px;
+            line-height: 18px;
+            font-size: 12px;
+            color: #999;
+        }
+        .sku-promotion-box{
+            margin-top: 10px;
+            .promotion-left{
+                color: #999;
+                font-size: 12px;
+                line-height: 18px;
+                width: 28px;
+                span{
+                    display: inline-block;
+                    width: 28px;
+                }
+            }
+            .sku-coupons{
+                display: flex;
+                align-items: center;
+                .sku-coupons-btn{
+                    margin-left: 11px;
+                    padding: 0 5px;
+                    height: 18px;
+                    height: 20px;
+                    line-height: 18px;
+                    text-align: center;
+                    border: 1px solid #c00002;
+                    color: #c00000;
+                    margin-right: 6px;
+                    font-size: 12px;
+                    cursor: pointer;
+                }
+                .sku-coupons-des{
+                    margin-left: 6px;
+                    color: #333;
+                    font-size: 12px;
+                    max-width: 460px;
+                }
+            }
+            .other-box{
+                display: flex;
+                // align-items: center;
+                font-size: 12px;
+                margin-top: 8px;
+                .other-des{
+                    font-size: 12px;
+                    color: #333;
+                    margin-right: 3px;
+                    margin-left: 8px;
+                    .other-des-logo{
+                        display: inline-block;
+                        vertical-align: middle;
+                        padding: 0 5px;
+                        height: 18px;
+                        line-height: 18px;
+                        text-align: center;
+                        border: 1px solid #c00002;
+                        color: #c00000;
+                        margin-right: 6px;
+                        font-size: 12px;
+                        cursor: pointer;
+                    }
+                }
+                .other-btn{
+                    cursor: pointer;
+                    color: #c00000;
+                    margin-left: 4px;
+                    margin-right: 3px
+                }
+            }
+        }
+        .sku-price{
+            margin-top: 18px;
+            padding: 10px;
+            margin-bottom: 26px;
+            background-color: #f9f9f9;
+            .sku-price-row{
+                display: flex;
+                align-items: center;
+                font-size: 12px;
+                margin-top: 5px;
+                margin-bottom: 12px;
+                .row-title{
+                    width: 48px;
+                    margin-right: 10px;
+                }
+                .row-price{
+                    color: #c00000;
+                    .price-1{
+                        margin-right: 3px;
+                        font-size: 14px;
+                        vertical-align: 0;
+                    }
+                    .price-2{
+                        font-size: 30px;
+                    }
+                }
+                .old-price{
+                    margin-top: 10px;
+                    margin-left: 14px;
+                    text-decoration: line-through;
+                    color: #ccc;
+                 }
+            }
+            .sku-server{
+                padding-top: 4px;
+                font-size: 12px;
+                display: flex;
+                .row-title{
+                    width: 48px;
+                    margin-right: 10px;
+                    display: flex;
+                    align-items: flex-start;
+                    .title-box{
+                        display: flex;
+                        align-items: center;
+                        width: 48px;
+                        .row-title-icon{
+                            border: 1px solid #c00000;
+                            border-radius: 50%;
+                            width: 12px;
+                            height: 12px;
+                            line-height: 12px;
+                            text-align: center;
+                            font-size: 10px;
+                            color: #c00000;
+                            margin-left: 4px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .service-box{
+                    display: flex;
+                    flex-wrap: wrap;
+                    .service-item{
+                        display: flex;
+                        margin-right: 13px;
+                        // height: 24px;
+                        margin-bottom: 8px;
+                        .service-item-icon{
+                            width: 16px;
+                            height: 16px;
+                            background-position: 0 -231px;
+                            background-image: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/yp-icons.20abdb4e.png);
+                            // margin-right: 8px;
+                        }
+                        .service-item-text{
+                            font-size: 16px;
+                            line-height: 16px;
+                            margin-left: 8px;
+                            // padding-left: 8px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        .sku-address{
+            display: flex;
+            align-items: center;
+            padding: 0 10px 26px;
+            .address-left{
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 14px;
+                margin-right: 10px;
+                width: 48px;
+            }
+            .address-right{
+                font-size: 14px;
+                line-height: 14px;
+            }
+        }
+        .sku-options{
+            padding: 0 10px;
+            .options-item{
+                display: flex;
+                .options-item-name{
+                    width: 48px;
+                    height: 32px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    vertical-align: bottom;
+                    margin-right: 10px;
+                    span{
+                        display: inline-block;
+                        width: 48px;
+                    }
+                }
+                .item-select-box{
+                    display: flex;
+                    flex-wrap: wrap;
+                    .item-select-sku{
+                        cursor: pointer;
+                        
+                        border: 1px solid #d6d6d6;
+                        margin-right: 14px;
+                        box-sizing: border-box;
+                        padding: 4px 20px;
+                        
+                        color: #333;
+                        line-height: 22px;
+                        font-size: 14px;
+                        text-align: center;
+                        margin-bottom: 14px;
+                        transition: all .5s cubic-bezier(0,1,.5,1);
+                        text-align: left;
+                        user-select: none;
+                        
+                    }
+                    .item-select-sku-active{
+                        border: 1px solid #845f3f;
+                        color: #845f3f;
+                    }
+                }
+            }
+        }
+        .sku-num{
+            margin-top: 12px;
+            display: flex;
+            .num-left{
+                line-height: 32px;
+                margin-left: 10px;
+                margin-right: 10px;
+                width: 48px;
+                height: 32px;
+            }
+            .num-right{
+                display: flex;
+                .num-jian{
+                    width: 30px;
+                    height: 30px;
+                    border: 1px solid #d6d6d6;
+                    text-align: center;
+                    color: #d6d6d6;
+                    cursor: pointer;
+                }
+                .num-add{
+                    width: 30px;
+                    height: 30px;
+                    border: 1px solid #d6d6d6;
+                    text-align: center;
+                    color: #d6d6d6;
+                    cursor: pointer;
+                }
+                .num-input{
+                    width: 60px;
+                    height: 30px;
+                    padding: 0;
+                    border-color: #d6d6d6;
+                    border-style: solid;
+                    border-width: 1px 0;
+                    text-align: center;
+                    font-weight: 700;
+                    font-size: 14px;
+                    color: #333;
+                    outline: none;
+                }
+            }
+        }
+        .sku-btn{
+            margin-top: 40px;
+            display: flex;
+            .add-cart{
+                color: #fff;
+                background-color: #845f3f;
+                border-color: #845f3f;
+                min-width: 167px;
+                height: 52px;
+                line-height: 50px;
+                font-size: 20px;
+                border-radius: 2px;
+                text-align: center;
+                margin-right: 15px;
+                padding: 0 6px;
+                transition: all .5s cubic-bezier(0,1,.5,1);
+                cursor: pointer;
+            }
+            .add-pay{
+                margin-right: 15px;
+                color: #845f3f;
+                
+                min-width: 167px;
+                height: 52px;
+                line-height: 50px;
+                font-size: 20px;
+                padding: 0 6px;
+                transition: all .5s cubic-bezier(0,1,.5,1);
+                text-align: center;
+                border: 1px solid #666;
+                border-color: #845f3f;
+                cursor: pointer;
+            }
+            .add-cart:hover{
+                color: #fff;
+                background-color: #d1bfa6;
+                border-color: #d1bfa6;
+            }
+            .add-pay:hover{
+                color: #fff;
+                background-color: #845f3f;
+                border-color: #845f3f;
+            }
+            .add-co{
+                width: 50px;
+                height: 50px;
+                border: 1px solid #ccc;
+                border-radius: 2px;
+                color: #999;
+                line-height: 12px;
+                text-align: center;
+                font-size: 12px;
+                transition: all .5s cubic-bezier(0,1,.5,1);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                cursor: pointer;
+                .con-icon{
+                    width: 30px;
+                    height: 30px;
+                    background-position: 0 -930px;
+                    background-image: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/yp-icons.20abdb4e.png);
+                }
+            }
+            .add-co:hover{
+                color: #fff;
+                background-color: #845f3f;
+                border-color: #845f3f;
+            }
+            .add-co:hover .con-icon{
+                background-position: 0 -1712px;
+            }
+            .add-kf{
+                cursor: pointer;
+                width: 50px;
+                height: 50px;
+                border: 1px solid #ccc;
+                border-radius: 2px;
+                color: #999;
+                line-height: 12px;
+                text-align: center;
+                font-size: 12px;
+                transition: all .5s cubic-bezier(0,1,.5,1);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-left: 15px;
+                .kf-icon{
+                    width: 30px;
+                    height: 30px;
+                    background-position: 0 -1576px;
+                    background-image: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/yp-icons.20abdb4e.png);
+                }
+            }
+            .add-kf:hover{
+                color: #fff;
+                background-color: #845f3f;
+                border-color: #845f3f;
+            }
+            .add-kf:hover .kf-icon{
+                background-position: 0 -1542px;
+            }
+        }
+    }
+}

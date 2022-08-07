@@ -1,0 +1,196 @@
+p{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.yiho-fixed-bar-container{
+    position: fixed;
+    right: 10px;
+    top: 220px;
+    width: 81px;
+    font-size: 12px;
+    color: #333;
+    background: #fff;
+    z-index: 99;
+}
+.yiho-fixed-bar{
+    padding: 0 5px;
+}
+.yiho-fixed-bar-item{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #e7e7e7;
+    cursor: pointer;
+    position: relative;
+}
+.yiho-fixed-bar-item-icon{
+    width: 30px;
+    height: 30px;
+}
+// [-1610, -1236, -760, -1780, -1338]
+.yiho-fixed-bar-item:hover .yiho-fixed-bar-item-text{
+    color: #845f3f;
+}
+.yiho-fixed-bar-item-lxkf:hover .yiho-fixed-bar-item-icon{
+    background-position: 0 -1610px;
+}
+.yiho-fixed-bar-item-service{
+    position: absolute;
+    width: 230px;
+    left: -224px;
+    top: 0px;
+    // background-color: white;
+    padding-right: 20px;
+    display: none;
+}
+.yiho-fixed-bar-item-lxkf:hover .yiho-fixed-bar-item-service{
+    display: block;
+}
+.servicr-container{
+    padding: 10px 18px;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    text-align: center;
+}
+.service-icon{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 6px;
+    height: 12px;
+    background-position: 0 -38px;
+    display: inline-block;
+    background-image: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/yp-icons.20abdb4e.png);
+}
+.yiho-fixed-bar-item-xzapp:hover .yiho-fixed-bar-item-icon{
+    background-position: 0 -1236px;
+}
+.yiho-fixed-bar-item-xzapp:hover .yiho-fixed-item-app{
+    display: block;
+}
+.yiho-fixed-item-app{
+    position: absolute;
+    // width: 130px;
+    overflow: hidden;
+    left: -132px;
+    top: 0;
+    display: none;
+    padding-right: 20px;
+    font-size: 12px;
+}
+.app-container{
+    padding: 10px;
+    // padding-left: 20px;
+    // padding-right: 20px;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    text-align: center;
+}
+.yiho-fixed-bar-item-xryl:hover .yiho-fixed-bar-item-icon{
+    background-position: 0 -760px;
+}
+.yiho-fixed-bar-item-xryl:hover .item-xryli{
+    display: block;
+}
+.item-xryli{
+    height: 328px;
+    overflow: hidden;
+    left: -226px;
+    position: absolute;
+    top: 0;
+    display: none;
+    padding-right: 20px;
+    text-align: center;
+}
+.item-xryli-container{
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+}
+.item-xryli-icon{
+    width: 190px;
+    height: 152px;
+    margin-bottom: 20px;
+    background: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/gift-gd.339f2400.png) 50% no-repeat;
+    background-size: 100%;
+}
+.item-xryli-icon1{
+    padding: 8px;
+    border: 1px solid #e7e7e7;
+    width: 88px;
+    height: 88px;
+    margin: 0 auto 10px;
+}
+
+.item-xryli-icon2{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 6px;
+    height: 12px;
+    background-position: 0 -38px;
+    background-image: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/yp-icons.20abdb4e.png);
+}
+
+.yiho-fixed-bar-item-gzwx:hover .yiho-fixed-bar-item-icon{
+    background-position: 0 -1780px;
+}
+.yiho-fixed-bar-item-gzwx:hover .item-wx{
+    display: block;
+}
+.item-wx{
+    width: 210px;
+    left: -204px;
+    position: absolute;
+    top: 0;
+    display: none;
+    padding-right: 20px;
+    text-align: center;
+}
+.item-wx-container{
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+}
+.item-wx-icon{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 10px;
+}
+.item-wx-icon1{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 6px;
+    height: 12px;
+    background-position: 0 -38px;
+    background-image: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/yp-icons.20abdb4e.png);
+}
+.yiho-fixed-bar-item-hdtb:hover .yiho-fixed-bar-item-icon{
+    background-position: 0 -1338px;
+}
+.yiho-fixed-bar-item-kf{
+    background-position: 0 -1644px;
+    background-image: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/yp-icons.20abdb4e.png);
+    
+}
+.yiho-fixed-bar-item-app{
+    background-position: 0 -1270px;
+    background-image:url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/yp-icons.20abdb4e.png);
+}
+.yiho-fixed-bar-item-new{
+    background-position: 0 -794px;
+    background-image: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/yp-icons.20abdb4e.png);
+}
+.yiho-fixed-bar-item-wx{
+    background-position: 0 -998px;
+    background-image: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/yp-icons.20abdb4e.png);
+}
+.yiho-fixed-bar-item-top{
+    background-position: 0 -1304px;
+    background-image: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/yp-icons.20abdb4e.png);
+}

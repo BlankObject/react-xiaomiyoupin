@@ -1,0 +1,111 @@
+.yiho-new-product{
+    margin-top: 60px;
+    .yiho-new-product-container{
+        width: 1080px;
+        margin: 0 auto;
+        .new-product-title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            .new-product-title-left{
+                .title-left-1{
+                    color: #333;
+                    font-size: 28px;
+                    font-weight: 400;
+                }
+                .title-left-2{
+                    margin-left: 12px;
+                    font-size: 14px;
+                    color: #999;
+                }
+            }
+            .new-product-title-right{
+                display: flex;
+                align-items: center;
+                font-size: 14px;
+                color: #999;
+                .new-product-title-right-icon{
+                    height: 30px;
+                    width: 30px;
+                    background-position: 0 -1134px;
+                    background-image: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/yp-icons.20abdb4e.png);
+                }
+            }
+        }
+        .yiho-new-product-goods-container{
+            position: relative;
+            height: 375px;
+            overflow: hidden;
+            .new-product-goods-list{
+                width: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                transition-duration: 0ms;
+                transition: left .4s ease;
+                display: flex;
+                
+                .new-product-goods-item{
+                    width: 266px;
+                    margin-right: 5px;
+                    transition: all .4s;
+                    cursor: pointer;
+                    .goods-item-img{
+                        width: 266px;
+                        height: 266px;
+                    }
+                    .goods-item-des{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        // background: #faf6ef;
+                        padding-top: 13px;
+                        padding-bottom: 10px;
+                        color: #333;
+                        // height: 88px;
+                        font-size: 19px;
+                        .goods-item-price{
+                            margin-top: 11px;
+                            .item-price-left{
+                                color: #a92112;
+                                
+                            }
+                        }
+                    }
+                }
+                .new-product-goods-item:hover{
+                    // box-shadow: 0 2px 20px rgb(0 0 0 / 10%);
+                    box-shadow: 0 2px 20px rgba(0 ,0 ,0 ,.1);
+                    transform: translate3d(0,-2px,0);
+                }
+            }
+            .yiho-banner-btn{
+                width: 38px;
+                height: 38px;
+                position: absolute;
+                z-index: 10;
+                cursor: pointer;
+                top: 50%;
+                margin-top: -22px;
+                // transition: all 1s;
+            }
+            .yiho-banner-left{
+                left: 10px;
+                background-position: 0 -1940px;
+                background-image: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/yp-icons.20abdb4e.png);
+            }
+            .yiho-banner-left:hover{
+                background-position: 0 -1814px;
+            }
+            .yiho-banner-right{
+                right: 10px;
+                background-position: 0 -1856px;
+                background-image: url(//cdn.cnbj1.fds.api.mi-img.com/youpin-pc/production/YouPin_PC/static3/media/yp-icons.20abdb4e.png);
+            }
+            .yiho-banner-right:hover{
+                background-position: 0 -1898px;
+            }
+        }
+    }
+}

@@ -1,0 +1,181 @@
+.yiho-comments{
+    width: 774px;
+    .yiho-comments-title{
+        margin-top: 16px;
+        .title-row{
+            display: flex;
+            height: 40px;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 14px;
+            .title-left{
+                color: #333;
+                display: flex;
+                align-items: center;
+                .title-left-icon{
+                    display: inline-block;
+                    height: 20px;
+                    width: 20px;
+                    background-size: 100%;
+                    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAFKADAAQAAAABAAAAFAAAAACy3fD9AAAAvUlEQVQ4EWNgGAWDLgQYCbnI2Nh4IiMjoyoPD0/QgQMHfhBSz0RQARPTwf///7t/+fJlpYODAwtB9YQUnD59eh1QTTbQUD+goXOBNEFfETITLG9iYlIN9P5/IN2PTwMzPklkuWfPnh2WlpbmB7qwEEi/AfJPI8vD2ATDEKaQ6jSxXibKYmDYZUDDbyGhSCHoZVNT0yCgrVOBaXETMC0mA+n/+FxB0MB///7ZAw3ZCTQsHJiw/+AzbFRukIYAAIjmQJSaM1/aAAAAAElFTkSuQmCC);
+                } 
+            }
+            .title-left:hover{
+                color: #83603f;
+            }
+            .title-right{
+                color: #83603f;
+            }
+        }
+        .title-main{
+            margin-top: 5px;
+            .main-container{
+                display: flex;
+                flex-wrap: wrap;
+                .tab-item{
+                    height: 28px;
+                    border: 1px solid #666;
+                    margin-bottom: 10px;
+                    margin-right: 17px;
+                    color: #666;
+                    // background-color: #845f3f;
+                    // border-color: #845f3f;
+                    padding: 0 6px;
+                    border-radius: 2px;
+                    transition: all .5s cubic-bezier(0,1,.5,1);
+                    display: flex;
+                    align-items: center;
+                    font-size: 13px;
+                    cursor: pointer;
+                }
+                .tab-item-active{
+                    background-color: #845f3f;
+                    border-color: #845f3f;
+                    font-size: 13px;
+                    color: #fff;
+                }
+                .tab-item:hover{
+                    color: #fff;
+                    background-color: #845f3f;
+                    border-color: #845f3f;
+                }
+
+                .tab-item-active:hover{
+                    color: #fff;
+                    background-color: #d1bfa6;
+                    border-color: #d1bfa6;
+                }
+            }
+        }
+        .title-footer{
+            margin-top: 5px;
+            display: flex;
+            justify-content: flex-end;
+            .title-footer-content{
+                display: flex;
+                .item-left{
+                    width: 87px;
+                    height: 35px;
+                    background-color: #e7e7e7;
+                    color: #333;
+                    font-size: 14px;
+                    cursor: pointer;
+                    border-radius: 2px;
+                    text-align: center;
+                    line-height: 35px;
+                }
+                .item-right{
+                    background-color: #83603f;
+                    color: #fff;
+                    width: 87px;
+                    height: 35px;
+                    text-align: center;
+                    line-height: 35px;
+                    font-size: 14px;
+                    cursor: pointer;
+                    border-radius: 2px;
+                }
+            }
+        }
+    }
+    .yiho-comments-main{
+        margin-top: 16px;
+        .comments-item{
+            width: 774px;
+            .comments-item-header{
+                margin-top: 35px;
+                display: flex;
+                align-items: center;
+                .comments-avater{
+                    height: 44px;
+                    width: 44px;
+                    border-radius: 22px;
+                    overflow: hidden;
+                }
+                .comments-info{
+                    margin-left: 22px;
+                    .info-name{
+                        font-size: 18px;
+                    }
+                    .info-other{
+                        font-size: 12px;
+                        color: #999;
+                        // margin-top: 5px;
+                        display: flex;
+                        align-items: center;
+                        .info-other-z{
+                            margin: 0 10px;
+                        }
+                    }
+                }
+            }
+            .comments-content{
+                margin: 10px 0 10px 66px;
+                font-size: 14px;
+                line-height: 24px;
+                color: #333;
+            }
+            .comments-img{
+                margin-top: 10px;
+                
+                margin-left: 64px;
+                display: flex;
+                flex-wrap: wrap;
+                .comments-img-item{
+                    cursor: pointer;
+                    overflow: hidden;
+                    border: 1px solid #fff;
+                    margin-bottom: 10px;
+                    margin-right: 4px;
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+            .comments-big-img{
+                width: 710px;
+                height: 500px;
+                margin-bottom: 24px;
+                margin-left: 64px;
+                overflow: hidden;
+            }
+        }
+        .yiho-cat-pagination{
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 40px;
+            .ant-pagination-item-active{
+                background: #845f3f repeat 0 0 none;
+                border: 1px solid #845f3f;
+                a{
+                    color: #fff;
+                }
+            }
+            .ant-pagination-item:hover{
+                border: 1px solid #d9d9d9;
+                a{
+                    color: #999;
+                }
+            }
+        }
+    }
+}

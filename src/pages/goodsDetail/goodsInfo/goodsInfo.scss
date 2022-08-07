@@ -1,0 +1,99 @@
+.yiho-goods-info{
+    display: flex;
+    justify-content: space-between;
+    .goods-info-left{
+        width: 774px;
+        .goods-info-title{
+            height: 42px;
+            width: 774px;
+            background-color: #e7e7e7;
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            // position: relative;
+            position: sticky;
+            top: 51px;
+            .info-title-item{
+                width: 127px;
+                height: 13px;
+                border-right-color: rgb(204, 204, 204);
+                border-right-width: 1px;
+                border-right-style: solid;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                
+            }
+            .info-title-item:hover{
+                color: #845f3f;
+            }
+            .title-thoumd{
+                position: absolute;
+                transition: left .2s linear;
+                height: 2px;
+                width: 127px;
+                background-color: #845f3f;
+                bottom: 0;
+                left:0
+            }
+        }
+        .goods-info-container{
+            min-height: 900px;
+    
+        }
+    }
+    .goods-info-right{
+        width: 262px;
+        .right-header{
+            display: flex;
+            padding-bottom: 13px;
+            margin-bottom: 17px;
+            border-bottom: 1px solid #e7e7e7;
+            .header-img{
+                width: 30px;
+                height: 30px;
+                cursor: pointer;
+                margin-right: 10px;
+            }
+            .header-name{
+                font-size: 14px;
+                font-weight: 400;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                padding-right: 8px;
+                display: flex;
+                .header-name-1{
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    padding-top: 3px;
+                    font-size: 12px;
+                }
+            }
+            .header-btn-box{
+                flex: 1;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                .header-btn{
+                    width: 48px;
+                    height: 30px;
+                    color: #fff;
+                    background-color: #845f3f;
+                    border-color: #845f3f;
+                    border-radius: 4px;
+                    text-align: center;
+                    line-height: 30px;
+                    cursor: pointer;
+                }
+                .header-btn:hover{
+                    color: #fff;
+                    background-color: #d1bfa6;
+                    border-color: #d1bfa6;
+                }
+            }
+        }
+    }
+}

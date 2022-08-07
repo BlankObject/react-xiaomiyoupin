@@ -1,0 +1,73 @@
+// .recommend-goods-list{
+//     width: 100%;
+//     margin-top: 20px;
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-between;
+    .recommend-goods-list-item{
+        width: 266px;
+        transition: all .4s;
+        border: 1px solid #e7e7e7;
+        margin-bottom: 5px;
+        cursor: pointer;
+        .goods-list-item-top{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 22px 53px;
+        }
+        .goods-list-item-top-name{
+            margin-top: 3px;
+            color: #845f3f;
+            font-size: 16px;
+            line-height: 20px;
+            height: 20px;
+            padding: 0 15px;
+            text-align: center;
+        }
+        .goods-list-item-bottom{
+            margin-top: 18px;
+            padding: 6px 0 10px;
+            padding-bottom: 0;
+            background: #f8f8f8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .item-bottom-tab{
+                display: flex;
+                justify-content: center;
+                .header-name-1{
+                    display: inline-block;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    // padding-top: 3px;
+                    padding: 0 4.5px;
+                    border-radius: 3px;
+                    font-size: 12px;
+                    border-width: 0.7px;
+                    border-style: solid;
+                    margin-left: 8px;
+                }
+            }
+            .item-bottom-name{
+                color: #333;
+                margin-top: 6px;
+                font-size: 16px;
+                line-height: 22px;
+                height: 22px;
+            }
+            .item-bottom-price{
+                // margin-top: 11px;
+                height: 22px;
+                line-height: 22px;
+                color: #a92112;
+                font-size: 14px;
+            }
+        }
+    }
+    .recommend-goods-list-item:hover{
+        box-shadow: 0 2px 20px rgba(0,0,0,.1);
+        transform: translate3d(0,-2px,0);
+    }
+// }

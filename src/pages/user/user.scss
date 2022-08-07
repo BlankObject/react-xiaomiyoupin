@@ -1,0 +1,47 @@
+.yiho-sider-layout__sider{
+    flex-shrink:0;
+    flex-grow:0;
+    @media screen and (min-width: 1000px){
+        width: 200px;
+    }
+    @media screen and (min-width: 1200px){
+        width: 375px;
+    }
+    .yiho-sider-layout__banner{
+        width: 0;
+        height: 100%;
+        background-size: cover;
+        background-position: 50%;
+        @media screen and (min-width: 1000px){
+            width: 200px;
+        }
+        @media screen and (min-width: 1200px){
+            width: 375px;
+        }
+    }
+}
+.yiho-nav__item1{
+   color:rgb(131, 131, 131)
+}
+.yiho-nav__item a:hover{
+    color: #ff6900;
+}
+.code:hover{
+    opacity: 1;
+}
+.code:hover div{
+    display: inline-block;
+}
+.code-arrow{
+    box-sizing: border-box;
+    box-shadow: 3px -3px 7px rgba(0,0,0,.07);
+    transform: translateX(-4.24264069px) rotate(45deg);
+    background-color: #ff5c00;
+    height:6px;
+    width:6px;
+    position: absolute;
+    left: 66px;
+    top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
